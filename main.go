@@ -17,6 +17,7 @@ import (
 var (
 	retryAttempts = 20
 	retrySleep    = 10 * time.Second
+	test          = 10
 )
 
 func main() {
