@@ -21,7 +21,7 @@ type Analysiser struct {
 
 	priceClient tools.QueryClientInterface
 
-	priceData *apis.RegionalInstancePrice
+	priceData *apis.RegionalInstancePricexxx
 }
 
 func NewAnalysiser(region string) (*Analysiser, error) {
